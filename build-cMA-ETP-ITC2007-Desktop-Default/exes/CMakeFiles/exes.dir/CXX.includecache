@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nuno/Nuno/PhD/Project/GitHub Projects/GitHub Project ITC2007 - COR2015/cMA-ETP-ITC2007/exes/TestSO.cpp
+cmath
+-
+iostream
+-
+stdlib.h
+-
+

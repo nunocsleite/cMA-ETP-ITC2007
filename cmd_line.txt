@@ -1,0 +1,24 @@
+#
+# Nuno Leite et al.
+#
+#
+# Cellular Memetic Algorithm on ITC 2007 -- How to execute
+# --------------------------------------------
+#
+
+// 1. Build project or use executable directly (code was compiled on an Unix system)
+...
+
+// 2. Go to the exes directory
+cd <build directory>/exes
+
+// 3. Create a output Run directory, e.g., Run1
+
+// 4. Set library path on remote machine
+export LD_LIBRARY_PATH=<build directory>/lib:$LD_LIBRARY_PATH
+
+// 5. Run
+
+$ ./exes 1 <Benchmarks folder> ./Run1/     # Dataset 1
+...
+$ ./exes 12 <Benchmarks folder> ./Run1/     # Dataset 12
